@@ -1,0 +1,14 @@
+Definition of Inheritance
+
+Inheritance is an Object-Oriented Programming (OOP) concept in which one class acquires the properties (variables) and methods (functions) of another class.
+
+1.Single Inheritance
+ -One child class inherits from one parent class.
+2.Multiple Inheritance
+ -One child class inherits from more than one parent class.
+3.Multilevel Inheritance
+ -A child class inherits from a parent class, and another class inherits from that child class.
+4.Hierarchical Inheritance
+ -Multiple child classes inherit from the same parent class.
+5.Hybrid Inheritance
+ -Combination of two or more types of inheritance.
