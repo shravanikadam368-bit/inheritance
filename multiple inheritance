@@ -1,0 +1,21 @@
+# Parent class 1
+class Father:
+    def skills(self):
+        print("Father: Gardening")
+
+# Parent class 2
+class Mother:
+    def skills(self):
+        print("Mother: Cooking")
+
+# Child class inheriting from both parents
+class Child(Father, Mother):
+    def own_skill(self):
+        print("Child: Programming")
+
+# Create object
+c = Child()
+
+# Access methods
+c.own_skill()
+c.skills()   # Calls method based on MRO (Method Resolution Order)
